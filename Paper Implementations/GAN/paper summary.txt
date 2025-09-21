@@ -1,0 +1,8 @@
+Paper summary :
+
+GANs (Goodfellow et al., 2014) introduce a two-player minimax game where a generator learns to produce data from noise while a 
+discriminator learns to distinguish real from fake. Training uses backpropagation (no MCMC/inference), and at equilibrium the 
+generator replicates the data distribution. GANs produce competitive samples but lack explicit likelihoods and can suffer from 
+mode collapse (where the generator is most likely to produce a specific subset of the full distribution).
+
+
